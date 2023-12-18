@@ -116,12 +116,7 @@ export default function Home() {
       return;
     }
 
-    if (radio === "manyToOne" && !toAddress) {
-      pushLog("没有地址", "error");
-      setRunning(false);
-      return;
-    }
-
+    
     // if (!inscription) {
     //   setLogs((logs) => [handleLog("没有铭文", "error"), ...logs]);
     //   setRunning(false);
